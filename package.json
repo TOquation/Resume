@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build": " tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   },
   "dependencies": {
     "daisyui": "^4.12.10",
