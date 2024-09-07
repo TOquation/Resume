@@ -21,7 +21,7 @@ body {
 }
 
 .sidebar {
-    background: linear-gradient(rgba(158, 207, 158, .5), rgba(153, 193, 153, .8)), url('../src/assets/treeWhite.jpg');
+    background: linear-gradient(rgba(158, 207, 158, .5), rgba(153, 193, 153, .8)), url('./assets/treeWhite.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
