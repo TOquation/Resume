@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+body {
+    @apply font-pacifico bg-lime-50
+}
+
+.sidebar {
+    background: linear-gradient(rgba(158, 207, 158, 0.4), rgba(153, 193, 153, 0.4)), url('../public/assets/treeWhite.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: all .4s ease;
+}
+
+.close {
+    left: 0;
+}
+
+.sidebar .nav-link {
+    @apply text-[1.3rem] font-bold transition-all duration-300 ease-in-out text-white md:text-[1rem]
+}
+
+.sidebar .nav-link:hover {
+    color: rgb(24, 180, 24);
+}
+
+.btn {
+    @apply py-4 border-2 border-black px-7 rounded-full text-[18px] font-bold bg-green-700/20 hover:bg-green-700/50 hover:text-white duration-300 ease-in-out
+}
+
+.outer {
+    @apply bg-transparent
+}
+
+
+
+.card-container {
+    @apply perspective-1000 h-64;
+}
+
+.card {
+    @apply relative w-full h-full transition-transform duration-700 transform-style-preserve-3d;
+}
+
+.card:hover {
+    @apply rotate-y-180;
+}
+
+.card-side {
+    @apply absolute w-full h-full backface-hidden;
+}
+
+.card-front {
+    @apply bg-green-500 text-white rounded-lg shadow-lg flex flex-col items-center justify-center space-y-4;
+}
+
+.card-back {
+    @apply bg-black text-lime-400 rotate-y-180 rounded-lg shadow-lg flex flex-col items-center justify-center space-y-4;
+}
+
+
+.card img {
+    @apply w-24
+}
+
+#portfolio .education-1-item .circle,
+#portfolio .experience-1-item .circle {
+    @apply h-12 w-12 bg-black rounded-full flex justify-center items-center z-20 relative
+}
+
+#portfolio .education-1-item .circle::before,
+#portfolio .experience-1-item .circle::before {
+    @apply content-[''] bg-[#107f10] w-5 h-5 rounded-full z-10
+}
+
+#portfolio .education-1-item .context h1,
+#portfolio .experience-1-item .context h1 {
+    @apply mt-[-40px] text-2xl lg:text-3xl tracking-tight
+}
+
+#portfolio .education-1-item .context p,
+#portfolio .experience-1-item .context p {
+    @apply text-[16px] lg:text-[22px] text-gray-600 mt-[6px]
+}
+
+#portfolio .education-1-item .context h3,
+#portfolio .experience-1-item .context h3 {
+    @apply text-[19px] lg:text-[26px] mt-3
+}
+
+.slick-dots li button:before {
+    color: green;
+}
