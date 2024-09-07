@@ -36,7 +36,7 @@
 
 <body>
   <!-- Header -->
-  <header id="header" class="bg-green-950 fixed w-full top-0 left-0 z-50">
+  <header id="header" class="bg-green-950 fixed w-full top-0 left-0  z-50 overflow-x-hidden">
 
     <nav class="container flex justify-between items-center bg-transparent mx-auto h-20">
 
@@ -77,10 +77,12 @@
     </nav>
   </header>
 
-  <main class="">
+
+
+  <main>
 
     <!-- Home -->
-    <section id="home" class="pt-24 md:pt-32 lg:mt-36 mt-8 pb-20 md:pb-28 lg:pb-32 overflow-x-hidden-x-hidden">
+    <section id="home" class="pt-24 md:pt-32 lg:mt-36 mt-8 pb-20 md:pb-28 lg:pb-32 max-w-full">
       <div class="lg:flex lg:flex-row-reverse container">
         <!-- image area -->
         <div class="lg:w-1/2">
@@ -101,7 +103,7 @@
           </p>
 
           <div class="py-4 space-y-3 space-x-4">
-            <a class="inline-block mb-3 md:inline md:mb-0" href="/public/assets/tochiCV.pdf">
+            <a class="inline-block mb-3 md:inline md:mb-0" href="/src/assets/tochiCV.pdf" download>
               <button class="btn ml-3">
                 Download CV
               </button>

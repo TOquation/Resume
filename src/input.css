@@ -15,11 +15,13 @@ html {
 
 
 body {
-    @apply font-pacifico bg-lime-50
+    @apply font-pacifico bg-lime-50;
+    overflow-x: hidden;
+
 }
 
 .sidebar {
-    background: linear-gradient(rgba(158, 207, 158, 0.4), rgba(153, 193, 153, 0.4)), url('../public/assets/treeWhite.jpg');
+    background: linear-gradient(rgba(158, 207, 158, .5), rgba(153, 193, 153, .8)), url('../src/assets/treeWhite.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
