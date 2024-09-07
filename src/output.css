@@ -1212,6 +1212,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-green-950{
+  --tw-text-opacity: 1;
+  color: rgb(5 46 22 / var(--tw-text-opacity));
+}
+
 .underline{
   text-decoration-line: underline;
 }
@@ -1320,7 +1325,7 @@ body{
 }
 
 .sidebar {
-  background: linear-gradient(rgba(158, 207, 158, .5), rgba(153, 193, 153, .8)), url('../src/assets/treeWhite.jpg');
+  background: linear-gradient(rgba(158, 207, 158, .5), rgba(153, 193, 153, .8)), url('./assets/treeWhite.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1535,8 +1540,18 @@ body{
   }
 }
 
+.slick-dots {
+  display: block !important;
+  margin-top: 30px;
+  text-align: center;
+}
+
 .slick-dots li button:before {
-  color: green;
+  color: #22c55e;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #065f46;
 }
 
 .hover\:-translate-y-3:hover{
@@ -1806,3 +1821,4 @@ body{
     text-decoration-thickness: 5px;
   }
 }
+  

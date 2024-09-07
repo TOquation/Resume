@@ -109,6 +109,17 @@ body {
     @apply text-[19px] lg:text-[26px] mt-3
 }
 
+.slick-dots {
+    display: block !important;
+    margin-top: 30px;
+    text-align: center;
+  }
+
 .slick-dots li button:before {
-    color: green;
-}
+    color: #22c55e; 
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #065f46; 
+  }
+  
