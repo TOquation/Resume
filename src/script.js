@@ -7,13 +7,13 @@ const contact = document.getElementById('contact')
 
 
 menu.addEventListener('click', () => {
-  menu.classList.toggle('ri-close-large-fill');
+  menu.classList.toggle('openHam');
   sidebar.classList.toggle('close')
 })
 
 menuItem.forEach(items => {
   items.addEventListener('click', () => {
-    menu.classList.toggle('ri-close-large-fill');
+    menu.classList.toggle('openHam');
     sidebar.classList.toggle('close')
   })
 })

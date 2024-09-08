@@ -45,6 +45,33 @@ body {
     color: rgb(24, 180, 24);
 }
 
+#hamburger{
+    @apply flex cursor-pointer flex-col space-y-2 md:hidden
+}
+
+.box{
+    @apply h-[3.5px] w-8 bg-white rounded-full
+}
+
+#hamburger .box1,
+#hamburger .box2,
+#hamburger .box3
+{
+    transition: all .5s ease;
+}
+
+#hamburger.openHam .box1{
+    transform: translate(-8px, 12px) rotate(45deg);
+}
+#hamburger.openHam .box2{
+    opacity: 0;
+}
+#hamburger.openHam .box3{
+    transform: translate(-8px, -10px) rotate(-45deg);
+}
+
+
+
 .btn {
     @apply py-4 border-2 border-black px-7 rounded-full text-[18px] font-bold bg-green-700/20 hover:bg-green-700/50 hover:text-white duration-300 ease-in-out
 }
@@ -86,12 +113,12 @@ body {
 
 #portfolio .education-1-item .circle,
 #portfolio .experience-1-item .circle {
-    @apply h-12 w-12 bg-black rounded-full flex justify-center items-center z-20 relative
+    @apply h-12 w-12 bg-[#052e16] rounded-full flex justify-center items-center z-20 relative
 }
 
 #portfolio .education-1-item .circle::before,
 #portfolio .experience-1-item .circle::before {
-    @apply content-[''] bg-[#107f10] w-5 h-5 rounded-full z-10
+    @apply content-[''] bg-white w-5 h-5 rounded-full z-10
 }
 
 #portfolio .education-1-item .context h1,
@@ -108,6 +135,15 @@ body {
 #portfolio .experience-1-item .context h3 {
     @apply text-[19px] lg:text-[26px] mt-3
 }
+
+#service_1{
+    cursor: pointer;
+    transition: all ease .5s;
+}
+#service_1:hover{
+    transform: translateY(-12px);
+}
+
 
 .slick-dots {
     display: block !important;

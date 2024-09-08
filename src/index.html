@@ -24,6 +24,8 @@
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajazzx/libs/aos/2.3.4/aos.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
@@ -38,7 +40,7 @@
 
 <body>
   <!-- Header -->
-  <header id="header" class="bg-green-950 fixed w-full top-0 left-0  z-50 overflow-x-hidden">
+  <header id="header" class="bg-green-950 fixed w-full top-0 left-0 z-50">
 
     <nav class="container flex justify-between items-center bg-transparent mx-auto h-20">
 
@@ -72,8 +74,11 @@
         </ul>
       </div>
 
-      <div class="text-4xl cursor-pointer font-bold md:hidden z-50">
-        <i id="hamburger" class="ri-menu-4-fill text-white"></i>
+      <!-- Hamburger-menu -->
+      <div id="hamburger">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
       </div>
 
     </nav>
@@ -87,8 +92,8 @@
     <section id="home" class="pt-24 md:pt-32 lg:mt-36 mt-8 pb-20 md:pb-28 lg:pb-32 max-w-full">
       <div class="lg:flex lg:flex-row-reverse container">
         <!-- image area -->
-        <div class="lg:w-1/2">
-          <img data-aos="fade-down" class="block mx-auto" src="./assets/chero.png" alt="profile-pix">
+        <div class="lg:w-1/2 relative">
+          <img data-aos="fade-down" class="block mx-auto h-[250px] w-[250px] md:h-[350px] md:w-[350px] object-cover" src="./assets/chero.png" alt="profile-pix">
             <!-- blur div -->
       
         </div>
@@ -144,7 +149,7 @@
             <div class="card-side card-front">
               <h3 class="text-[26px] font-bold">HTML</h3>
               <img src="../public/assets/htmls.gif" alt="">
-              <p class="text-sm md:text-[18px] lg:text-[20px] text-center font-bold">Hover to see mastery</p>
+              <p class="text-[20px] text-center font-bold">Hover to see mastery</p>
             </div>
 
             <div class="card-side card-back">
@@ -158,7 +163,7 @@
             <div class="card-side card-front">
               <h3 class="text-[26px] font-bold">CSS</h3>
               <img src="../public/assets/css.gif" alt="">
-              <p class="text-sm md:text-[18px] lg:text-[20px] text-center font-bold">Hover to see mastery</p>
+              <p class="text-[20px] text-center font-bold">Hover to see mastery</p>
             </div>
 
             <div class="card-side card-back">
@@ -172,7 +177,7 @@
             <div class="card-side card-front">
               <h3 class="text-[26px] font-bold">MATHS</h3>
               <img src="../public/assets/icons8-book.gif" alt="">
-              <p class="text-sm md:text-[18px] lg:text-[20px] text-center font-bold">Hover to see mastery</p>
+              <p class="text-[20px] text-center font-bold">Hover to see mastery</p>
             </div>
 
             <div class="card-side card-back">
@@ -186,7 +191,7 @@
             <div class="card-side card-front">
               <h3 class="text-[26px] font-bold">JAVASCRIPT</h3>
               <img src="../public/assets/javas.gif" alt="">
-              <p class="text-sm md:text-[18px] lg:text-[20px] text-center font-bold">Hover to see mastery</p>
+              <p class="text-[20px] text-center font-bold">Hover to see mastery</p>
             </div>
 
             <div class="card-side card-back">
@@ -200,7 +205,7 @@
             <div class="card-side card-front">
               <h3 class="text-[26px] font-bold">TAILWINDCSS</h3>
               <img src="../public/assets/icons8-tailwind-css-96.png" class="animate-pulse" alt="">
-              <p class="text-sm md:text-[18px] lg:text-[20px] text-center font-bold">Hover to see mastery</p>
+              <p class="text-[20px] text-center font-bold">Hover to see mastery</p>
             </div>
 
             <div class="card-side card-back">
@@ -214,7 +219,7 @@
             <div class="card-side card-front">
               <h3 class="text-[26px] font-bold">BOOTSTRAP</h3>
               <img class="animate-Amazed" src="../public/assets/icons8-bootstrap-96.png" alt="">
-              <p class="text-sm md:text-[18px] lg:text-[20px] text-center font-bold">Hover to see mastery
+              <p class="text-[20px] text-center font-bold">Hover to see mastery
               </p>
             </div>
 
@@ -231,7 +236,7 @@
             <div class="card-side card-front">
               <h3 class="text-[26px] font-bold">EXCEL</h3>
               <img src="../public/assets/icons8-excel-96.png" class="animate-scaleUpDown" alt="">
-              <p class="text-sm md:text-[18px] lg:text-[20px] text-center font-bold">Hover to see mastery
+              <p class="text-[20px] text-center font-bold">Hover to see mastery
               </p>
             </div>
 
@@ -247,7 +252,7 @@
             <div class="card-side card-front">
               <h3 class="text-[26px] font-bold">REACT</h3>
               <img class="animate-spinUp" src="../public/assets/icons8-react-100.png" alt="">
-              <p class="text-sm md:text-[18px] lg:text-[20px] text-center font-bold">Hover to see mastery
+              <p class="text-[20px] text-center font-bold">Hover to see mastery
               </p>
             </div>
 
@@ -278,7 +283,7 @@
               <div class="circle">
               </div>
 
-              <div class="vertical-line w-2 bg-red-600  absolute left-[20px] top-[0] z-10 bottom-0">
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
               </div>
 
               <div class="context ml-[70px] pb-6">
@@ -292,7 +297,7 @@
               <div class="circle">
               </div>
 
-              <div class="vertical-line w-2 bg-red-600  absolute left-[20px] top-[0] z-10 bottom-0">
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
 
               </div>
 
@@ -307,7 +312,7 @@
               <div class="circle">
               </div>
 
-              <div class="vertical-line w-2 bg-red-600  absolute left-[20px] top-[0] z-10 bottom-0">
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
 
               </div>
 
@@ -322,7 +327,7 @@
               <div class="circle">
               </div>
 
-              <div class="vertical-line w-2 bg-red-600  absolute left-[20px] top-[0] z-[-10] bottom-0">
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-[-10] bottom-0">
 
               </div>
 
@@ -345,7 +350,7 @@
               <div class="circle">
               </div>
 
-              <div class="vertical-line w-2 bg-red-600  absolute left-[20px] top-[0] z-10 bottom-0">
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
 
               </div>
 
@@ -360,7 +365,7 @@
               <div class="circle">
               </div>
 
-              <div class="vertical-line w-2 bg-red-600  absolute left-[20px] top-[0] z-10 bottom-0">
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
 
               </div>
 
@@ -375,7 +380,7 @@
               <div class="circle">
               </div>
 
-              <div class="vertical-line w-2 bg-red-600  absolute left-[20px] top-[0] z-10 bottom-0">
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
 
               </div>
 
@@ -390,7 +395,7 @@
               <div class="circle">
               </div>
 
-              <div class="vertical-line w-2 bg-red-600  absolute left-[20px] top-[0] z-[-10] bottom-0">
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-[-10] bottom-0">
 
               </div>
 
@@ -425,9 +430,9 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           <!-- Service 1: Web Development -->
-          <div
+          <div id="service_1"
           data-aos="zoom-out"
-            class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
+            class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg">
             <!-- Background Icon -->
             <div class="absolute inset-0 flex items-center justify-center">
               <i class="fas fa-code fa-8x text-green-500 opacity-10"></i>
@@ -446,7 +451,7 @@
           </div>
 
           <!-- Service 2: Mathematics Tutoring -->
-          <div data-aos="zoom-out"
+          <div id="service_1" data-aos="zoom-out"
             class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
             <!-- Background Icon -->
             <div class="absolute inset-0 flex items-center justify-center">
@@ -466,7 +471,7 @@
           </div>
 
           <!-- Service 3: Project Consultation -->
-          <div data-aos="zoom-out"
+          <div id="service_1" data-aos="zoom-out"
             class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
             <!-- Background Icon -->
             <div class="absolute inset-0 flex items-center justify-center">
@@ -486,7 +491,7 @@
           </div>
 
           <!-- Service 4: Web Development Consultation -->
-          <div data-aos="zoom-out"
+          <div id="service_1" data-aos="zoom-out"
             class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
             <!-- Background Icon -->
             <div class="absolute inset-0 flex items-center justify-center">
@@ -506,7 +511,7 @@
           </div>
 
           <!-- Service 5: Mathematics Tutoring -->
-          <div data-aos="zoom-out"
+          <div id="service_1" data-aos="zoom-out"
             class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
             <!-- Background Icon -->
             <div class="absolute inset-0 flex items-center justify-center">
@@ -526,7 +531,7 @@
           </div>
 
           <!-- Service 6: UI/UX Design Enhancement -->
-          <div data-aos="zoom-out"
+          <div id="service_1" data-aos="zoom-out"
             class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
             <!-- Background Icon -->
             <div class="absolute inset-0 flex items-center justify-center">
@@ -545,6 +550,7 @@
           </div>
 
         </div>
+
       </div>
     </section>
 
