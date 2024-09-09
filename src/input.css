@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
 
 
 @tailwind base;
@@ -46,11 +49,11 @@ body {
 }
 
 #hamburger{
-    @apply flex cursor-pointer flex-col space-y-2 md:hidden
+    @apply flex cursor-pointer flex-col space-y-[6px] md:hidden
 }
 
 .box{
-    @apply h-[3.5px] w-8 bg-white rounded-full
+    @apply h-[3px] w-[24px] bg-white rounded-full
 }
 
 #hamburger .box1,
@@ -61,13 +64,13 @@ body {
 }
 
 #hamburger.openHam .box1{
-    transform: translate(-8px, 12px) rotate(45deg);
+    transform: translate(-8px, 10px) rotate(45deg);
 }
 #hamburger.openHam .box2{
     opacity: 0;
 }
 #hamburger.openHam .box3{
-    transform: translate(-8px, -10px) rotate(-45deg);
+    transform: translate(-8px, -8px) rotate(-45deg);
 }
 
 

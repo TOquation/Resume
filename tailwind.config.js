@@ -73,6 +73,7 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins'],
         pacifico: ['Cursive', 'Pacifico'],
+        Acme: 'Acme'
       },
 
       perspective: {
