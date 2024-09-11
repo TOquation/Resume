@@ -1317,7 +1317,7 @@ html {
 body{
   --tw-bg-opacity: 1;
   background-color: rgb(247 254 231 / var(--tw-bg-opacity));
-  font-family: Cursive, Pacifico;
+  font-family: cursive, Pacifico;
   overflow-x: hidden;
 }
 

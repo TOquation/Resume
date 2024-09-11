@@ -72,7 +72,7 @@ module.exports = {
 
       fontFamily: {
         poppins: ['Poppins'],
-        pacifico: ['Cursive', 'Pacifico'],
+        pacifico: ['cursive', 'Pacifico'],
         Acme: 'Acme'
       },
 
