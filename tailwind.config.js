@@ -50,7 +50,7 @@ module.exports = {
         Coloured: 'colorShift 4s infinite linear',
         Flipped: 'flip 2s infinite ease-in-out',
       },
-      
+
       container: {
         center: true,
         padding: {
@@ -70,11 +70,7 @@ module.exports = {
         },
       },
 
-      fontFamily: {
-        poppins: ['Poppins'],
-        pacifico: ['cursive', 'Pacifico'],
-        Acme: 'Acme'
-      },
+
 
       perspective: {
         '1000': '1000px',
@@ -95,7 +91,7 @@ module.exports = {
 
   },
   plugins: [
-    function({ addUtilities }) {
+    function ({ addUtilities }) {
       addUtilities({
         '.perspective-1000': {
           perspective: '1000px',
@@ -112,6 +108,6 @@ module.exports = {
 
       });
     },
-  
+
   ],
 };

@@ -1,10 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap'); */
-
-/* ! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com */
+/*
+! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
+*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -1094,6 +1090,10 @@ video {
   text-align: center;
 }
 
+.font-\[cursive\] {
+  font-family: cursive;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1310,10 +1310,12 @@ video {
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  font-family:  cursive;
+  font-family: cursive;
   overflow-x: hidden;
 }
 
@@ -1382,20 +1384,19 @@ body {
 
 #hamburger .box1,
 #hamburger .box2,
-#hamburger .box3
-{
+#hamburger .box3 {
   transition: all .5s ease;
 }
 
-#hamburger.openHam .box1{
+#hamburger.openHam .box1 {
   transform: translate(-8px, 10px) rotate(45deg);
 }
 
-#hamburger.openHam .box2{
+#hamburger.openHam .box2 {
   opacity: 0;
 }
 
-#hamburger.openHam .box3{
+#hamburger.openHam .box3 {
   transform: translate(-8px, -8px) rotate(-45deg);
 }
 
@@ -1578,12 +1579,12 @@ body {
   }
 }
 
-#service_1{
+#service_1 {
   cursor: pointer;
   transition: all ease .5s;
 }
 
-#service_1:hover{
+#service_1:hover {
   transform: translateY(-12px);
 }
 
@@ -1868,4 +1869,3 @@ body {
     text-decoration-thickness: 5px;
   }
 }
-  
