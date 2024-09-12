@@ -9,7 +9,7 @@ html {
 
 
 body {
-    @apply font-sans md:font-[cursive] antialiased;
+    @apply font-mono md:font-[cursive] antialiased;
     overflow-x: hidden;
 
 }
