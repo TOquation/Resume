@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +11,7 @@ html {
 
 
 body {
-    @apply font-mono md:font-[cursive] antialiased;
+    @apply font-jamjuree  antialiased;
     overflow-x: hidden;
 
 }

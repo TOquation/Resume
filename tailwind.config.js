@@ -2,6 +2,11 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+
+      fontFamily:{
+        "jamjuree" : ["Bai Jamjuree", "sans"]
+      },
+
       keyframes: {
         scaleUpDown: {
           '0%, 100%': { transform: 'scale(1)' },
