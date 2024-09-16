@@ -4,7 +4,7 @@ module.exports = {
     extend: {
 
       fontFamily:{
-        "jamjuree" : ["Bai Jamjuree", "sans"]
+        "pacifico" : ["Pacifico", "cursive"]
       },
 
       keyframes: {
