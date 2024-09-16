@@ -1,3 +1,7 @@
+window.addEventListener('load', function () {
+  document.getElementById('preloader').style.display = 'none';
+});
+
 const menu = document.getElementById('hamburger');
 const sidebar = document.querySelector('.sidebar');
 const menuItem = document.querySelectorAll('.nav-link');
@@ -137,8 +141,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
   });
 });
 
-window.addEventListener('load', function () {
-  document.getElementById('preloader').style.display = 'none';
-});
+
+
 
 
