@@ -1311,9 +1311,18 @@ html {
 }
 
 body{
-  font-family: Pacifico, cursive;
+  font-family: Bai Jamjuree, Sans-Serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 768px){
+  body{
+    font-family: Pacifico, cursive;
+  }
+}
+
+body {
   overflow-x: hidden;
 }
 
