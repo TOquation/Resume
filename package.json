@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "daisyui": "^4.12.10",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "loaders.css": "^0.1.2"
   }
 }

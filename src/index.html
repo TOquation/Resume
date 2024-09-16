@@ -23,7 +23,7 @@
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajazzx/libs/aos/2.3.4/aos.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
@@ -37,6 +37,15 @@
 </head>
 
 <body>
+  <!-- preloader -->
+  <div id="preloader" class="fixed inset-0 flex items-center justify-center bg-white z-50">
+    <div class="ball-pulse">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
   <!-- Header -->
   <header id="header" class="bg-green-950 fixed w-full top-0 left-0 z-50">
 
@@ -91,13 +100,14 @@
       <div class="lg:flex lg:flex-row-reverse container">
         <!-- image area -->
         <div class="lg:w-1/2 relative">
-          <img data-aos="fade-down" class="block mx-auto h-[250px] w-[250px] md:h-[350px] md:w-[350px] object-cover" src="./assets/chero.png" alt="profile-pix">
-            <!-- blur div -->
-      
+          <img data-aos="fade-down" class="block mx-auto h-[250px] w-[250px] md:h-[350px] md:w-[350px] object-cover"
+            src="./assets/chero.png" alt="profile-pix">
+          <!-- blur div -->
+
         </div>
         <!-- content -->
         <div class="mt-12 lg:mt-8 text-center space-y-4 lg:w-1/2 lg:text-left z-[1]" data-aos="fade-right"
-        data-aos-duration="1500">
+          data-aos-duration="1500">
           <h1 class="text-2xl md:text-3xl lg:text-4xl">
             MY NAME IS
             <span class="text-5xl md:text-6xl lg:text-7xl font-bold text-[#193919]">TOCHER0</span>
@@ -121,8 +131,8 @@
             </a>
           </div>
         </div>
- 
-      
+
+
       </div>
     </section>
 
@@ -271,8 +281,7 @@
           class="font-bold text-3xl md:text-4xl lg:text-5xl underline decoration-[3px] md:decoration-[4px] lg:decoration-[5px] decoration-green-950 underline-offset-8 md:underline-offset-10 lg:underline-offset-12 text-center md:text-left">
           EXPERIENCE <br class="md:hidden"> & <br class="md:hidden"> EDUCATION</h1>
         <div class="portfolio-container grid lg:grid-cols-2 gap-8 lg:gap-1 lg:px-1 lg:items-start">
-          <div data-aos="fade-right" 
-          class="education-container">
+          <div data-aos="fade-right" class="education-container">
 
             <!-- Education -->
 
@@ -429,8 +438,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           <!-- Service 1: Web Development -->
-          <div id="service_1"
-          data-aos="zoom-out"
+          <div id="service_1" data-aos="zoom-out"
             class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg">
             <!-- Background Icon -->
             <div class="absolute inset-0 flex items-center justify-center">
@@ -627,8 +635,8 @@
 
         <!-- Contact Form -->
         <div id="contact" class="w-full max-w-2xl">
-          <form 
-          action="https://formspree.io/f/meojpjqo" method="POST" class="bg-green-950/80 p-6 rounded-lg shadow-lg" id="contactForm">
+          <form action="https://formspree.io/f/meojpjqo" method="POST" class="bg-green-950/80 p-6 rounded-lg shadow-lg"
+            id="contactForm">
             <div class="mb-4">
               <label for="name" class="block text-lg font-semibold mb-2">Name</label>
               <input type="text" id="name" name="name" required

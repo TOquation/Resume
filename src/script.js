@@ -137,4 +137,8 @@ document.getElementById('contactForm').addEventListener('submit', function (even
   });
 });
 
+window.addEventListener('load', function () {
+  document.getElementById('preloader').style.display = 'none';
+});
+
 
