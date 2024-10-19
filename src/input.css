@@ -250,7 +250,7 @@ body {
 }
 
 .card-front {
-    @apply bg-[#052e16] text-white rounded-lg shadow-lg flex flex-col items-center justify-center space-y-4;
+    @apply bg-[#095428] text-white rounded-lg shadow-lg flex flex-col items-center justify-center space-y-4;
 }
 
 .card-back {
