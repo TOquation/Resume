@@ -23,6 +23,8 @@
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajazzx/libs/aos/2.3.4/aos.css" />
@@ -38,11 +40,20 @@
 
 <body>
   <!-- preloader -->
-  <div id="preloader" class="fixed inset-0 flex items-center justify-center bg-white z-50">
-    <div class="ball-pulse">
-      <div></div>
-      <div></div>
-      <div></div>
+  <div class="preloader">
+    <svg viewbox="0 0 1000 1000" preserveaspectratio="none">
+      <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+    <div class="preloader-heading">
+      <div class="load-text">
+        <span>T</span>
+        <span>o</span>
+        <span>c</span>
+        <span>h</span>
+        <span>e</span>
+        <span>r</span>
+        <span>o</span>
+      </div>
     </div>
   </div>
 
