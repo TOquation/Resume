@@ -608,10 +608,13 @@ video {
   }
 }
 
+<<<<<<< HEAD
 .visible{
   visibility: visible;
 }
 
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 .fixed{
   position: fixed;
 }
@@ -870,10 +873,13 @@ video {
   animation: spin 10s infinite ease-in-out;
 }
 
+<<<<<<< HEAD
 .resize{
   resize: both;
 }
 
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1092,18 +1098,24 @@ video {
   padding-top: 7rem;
 }
 
+<<<<<<< HEAD
 .pt-32{
   padding-top: 8rem;
 }
 
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 .pt-4{
   padding-top: 1rem;
 }
 
+<<<<<<< HEAD
 .pt-\[40px\]{
   padding-top: 40px;
 }
 
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 .text-center{
   text-align: center;
 }
@@ -1183,9 +1195,15 @@ video {
   letter-spacing: -0.025em;
 }
 
+<<<<<<< HEAD
 .text-\[\#ecf0ec\]{
   --tw-text-opacity: 1;
   color: rgb(236 240 236 / var(--tw-text-opacity));
+=======
+.text-\[\#193919\]{
+  --tw-text-opacity: 1;
+  color: rgb(25 57 25 / var(--tw-text-opacity));
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 }
 
 .text-gray-400{
@@ -1198,11 +1216,14 @@ video {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 .text-gray-800{
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -1271,10 +1292,13 @@ video {
   opacity: 0.1;
 }
 
+<<<<<<< HEAD
 .opacity-50{
   opacity: 0.5;
 }
 
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 .shadow-lg{
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
@@ -1297,11 +1321,14 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+<<<<<<< HEAD
 .shadow-gray-700{
   --tw-shadow-color: #374151;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 .blur{
   --tw-blur: blur(8px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1432,6 +1459,7 @@ body.loaded {
   }
 }
 
+<<<<<<< HEAD
 #home{
   background-image: url('./assets/nature.jpg');
   background-repeat: no-repeat;
@@ -1439,6 +1467,8 @@ body.loaded {
   background-position: center center;
 }
 
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 .progress-wrap {
   position: fixed;
   bottom: 30px;
@@ -1957,6 +1987,13 @@ body {
 }
 
 @media (min-width: 1024px){
+<<<<<<< HEAD
+=======
+  .lg\:mt-36{
+    margin-top: 9rem;
+  }
+
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
   .lg\:mt-8{
     margin-top: 2rem;
   }

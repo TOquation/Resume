@@ -12,7 +12,10 @@
     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   },
   "dependencies": {
+<<<<<<< HEAD
     "animejs": "^3.2.2",
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
     "daisyui": "^4.12.10",
     "dotenv": "^16.4.5",
     "loaders.css": "^0.1.2"

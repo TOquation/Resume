@@ -16,9 +16,12 @@ body.loaded {
     height: 100% !important;
 }
 
+<<<<<<< HEAD
 
  
 
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 .preloader {
     position: fixed;
     z-index: 10;
@@ -52,9 +55,12 @@ body.loaded {
     @apply text-[2.3rem] sm:text-[3.3rem] md:text-[4.3rem] font-bold text-white tracking-wide sm:tracking-wider uppercase z-[20]
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 .load-text span {
     -webkit-animation: loading 1s infinite alternate;
     animation: loading 1s infinite alternate;
@@ -115,6 +121,7 @@ body.loaded {
     }
 }
 
+<<<<<<< HEAD
 #home{
     background-image: url('./assets/nature.jpg');
     background-repeat: no-repeat;
@@ -122,6 +129,8 @@ body.loaded {
     background-position: center center;
 }
 
+=======
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 .progress-wrap {
     position: fixed;
     bottom: 30px;
@@ -241,7 +250,11 @@ body {
 }
 
 .outer {
+<<<<<<< HEAD
     @apply bg-transparent 
+=======
+    @apply bg-transparent
+>>>>>>> ab5bac557ad21f7b6546e6eacfa98b3ae5e255d5
 }
 
 
