@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./output.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- Slick Carousel CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajazzx/libs/aos/2.3.4/aos.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <title>Sir TC</title>
+</head>
+
+<body>
+  <!-- preloader -->
+  <!-- <div class="preloader">
+    <svg viewbox="0 0 1000 1000" preserveaspectratio="none">
+      <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+    <div class="preloader-heading">
+      <div class="load-text">
+        <span>T</span>
+        <span>o</span>
+        <span>c</span>
+        <span>h</span>
+        <span>e</span>
+        <span>r</span>
+        <span>o</span>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Header -->
+  <header id="header" class="bg-green-950 fixed w-full top-0 left-0 z-50">
+
+    <nav class="container flex justify-between items-center bg-transparent mx-auto h-20">
+
+      <div class="text-[1.5rem] font-bold text-white">
+        TOCHERO.
+      </div>
+
+      <div class="sidebar md:bg-none md:static md:min-h-fit md:w-auto">
+        <ul
+          class="flex flex-col items-center justify-center h-full space-y-14 md:flex-row md:items-center md:space-y-0 md:space-x-8">
+          <li>
+            <a href="#home" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link">
+              Services
+            </a>
+          </li>
+          <li>
+            <a href="#Contact" class="nav-link">
+              Contacts
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Hamburger-menu -->
+      <div id="hamburger">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Home -->
+    <section id="home" class="ripple pt-32 mt-8 pb-20 md:pb-28 lg:pb-32 max-w-full">
+      <div class="lg:flex lg:flex-row-reverse justify-center items-center container">
+        <!-- image area -->
+        <div class="lg:w-1/2 relative opacity-50">
+          <img data-aos="fade-down" class="block mx-auto h-[250px] w-[250px] md:h-[350px] md:w-[350px] object-cover"
+            src="./assets/chero.png" alt="profile-pix">
+          <!-- blur div -->
+
+        </div>
+        <!-- content -->
+        <div class="mt-12 lg:mt-8 text-center space-y-4 lg:w-1/2 lg:text-left z-[1]" data-aos="fade-right"
+          data-aos-duration="1500">
+          <h1 class="text-2xl font-bold md:text-3xl lg:text-4xl text-gray-400">
+            MY NAME IS
+            <span class="text-5xl md:text-6xl lg:text-7xl font-bold text-[#ecf0ec]">TOCHER0</span>
+          </h1>
+          <p class="text-xl text-white">
+            I'm a mathematician with a passion for teaching and learning. I love exploring new concepts and helping
+            others discover the beauty of mathematics. Join me in this journey of curiosity and growth.
+          </p>
+
+          <div class="py-4 space-y-3 space-x-4">
+            <a class="inline-block mb-3 md:inline md:mb-0" href="./assets/tochiCV.pdf" download>
+              <button class="btn ml-3 text-gray-700">
+                Download CV
+              </button>
+            </a>
+
+            <a href="#Contact">
+              <button class="btn outer text-gray-700">
+                Contact me
+              </button>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="my_Skills" class="pt-[40px] pb-20 md:pb-32 lg:pb-36">
+
+      <div class="container pb-6 md:pb-8 lg:pb-10">
+
+        <h1
+          class="font-bold text-center md:text-left text-3xl md:text-4xl lg:text-5xl underline decoration-[3px] md:decoration-[4px] lg:decoration-[5px] decoration-green-950 underline-offset-8 md:underline-offset-10 lg:underline-offset-12">
+          MY SKILLS</h1>
+
+      </div>
+      <div class="container grid md:grid-cols-2 lg:grid-cols-4
+       gap-6">
+
+        <div data-aos="zoom-in" class="card-container">
+          <div class="card">
+            <div class="card-side card-front">
+              <h3 class="text-[26px] font-bold">HTML</h3>
+              <img src="assets/htmls.gif" alt="">
+              <p class="text-[20px] text-center font-bold">Hover to see mastery</p>
+            </div>
+
+            <div class="card-side card-back">
+              <h1 class="animate-scaleUpDown text-4xl md:text-5xl lg:text-6xl">80%</h1>
+              <p>...And improving...</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" class="card-container">
+          <div class="card">
+            <div class="card-side card-front">
+              <h3 class="text-[26px] font-bold">CSS</h3>
+              <img src="assets/css.gif" alt="">
+              <p class="text-[20px] text-center font-bold">Hover to see mastery</p>
+            </div>
+
+            <div class="card-side card-back">
+              <h1 class="animate-scaleUpDown text-4xl md:text-5xl lg:text-6xl">70%</h1>
+              <p>...And improving...</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" class="card-container">
+          <div class="card">
+            <div class="card-side card-front">
+              <h3 class="text-[26px] font-bold">MATHS</h3>
+              <img src="assets/icons8-book.gif" alt="">
+              <p class="text-[20px] text-center font-bold">Hover to see mastery</p>
+            </div>
+
+            <div class="card-side card-back">
+              <h1 class="animate-scaleUpDown text-4xl md:text-5xl lg:text-6xl">70%</h1>
+              <p>...And improving...</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" class="card-container">
+          <div class="card">
+            <div class="card-side card-front">
+              <h3 class="text-[26px] font-bold">JAVASCRIPT</h3>
+              <img src="assets/javas.gif" alt="">
+              <p class="text-[20px] text-center font-bold">Hover to see mastery</p>
+            </div>
+
+            <div class="card-side card-back">
+              <h1 class="animate-scaleUpDown text-4xl md:text-5xl lg:text-6xl">50%</h1>
+              <p>...And improving...</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" class="card-container">
+          <div class="card">
+            <div class="card-side card-front">
+              <h3 class="text-[26px] font-bold">TAILWINDCSS</h3>
+              <img src="assets/icons8-tailwind-css-96.png" class="animate-pulse" alt="">
+              <p class="text-[20px] text-center font-bold">Hover to see mastery</p>
+            </div>
+
+            <div class="card-side card-back">
+              <h1 class="animate-scaleUpDown text-4xl md:text-5xl lg:text-6xl">75%</h1>
+              <p>...And improving...</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" class="card-container">
+          <div class="card">
+            <div class="card-side card-front">
+              <h3 class="text-[26px] font-bold">BOOTSTRAP</h3>
+              <img class="animate-Amazed" src="assets/icons8-bootstrap-96.png" alt="">
+              <p class="text-[20px] text-center font-bold">Hover to see mastery
+              </p>
+            </div>
+
+            <div class="card-side card-back">
+              <h1 class="animate-scaleUpDown text-4xl md:text-5xl lg:text-6xl">60%</h1>
+              <p>...And improving...</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div data-aos="zoom-in" class="card-container">
+          <div class="card">
+            <div class="card-side card-front">
+              <h3 class="text-[26px] font-bold">EXCEL</h3>
+              <img src="assets/icons8-excel-96.png" class="animate-scaleUpDown" alt="">
+              <p class="text-[20px] text-center font-bold">Hover to see mastery
+              </p>
+            </div>
+
+            <div class="card-side card-back">
+              <h1 class="animate-scaleUpDown text-4xl md:text-5xl lg:text-6xl">50%</h1>
+              <p>...And improving...</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in" class="card-container">
+          <div class="card">
+            <div class="card-side card-front">
+              <h3 class="text-[26px] font-bold">REACT</h3>
+              <img class="animate-spinUp" src="assets/icons8-react-100.png" alt="">
+              <p class="text-[20px] text-center font-bold">Hover to see mastery
+              </p>
+            </div>
+
+            <div class="card-side card-back">
+              <h1 class="animate-scaleUpDown text-4xl md:text-5xl lg:text-6xl">40%</h1>
+              <p>...And improving...</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="pt-24 pb-20 md:pb-32 lg:pb-36">
+      <div class="container">
+        <h1
+          class="font-bold text-3xl md:text-4xl lg:text-5xl underline decoration-[3px] md:decoration-[4px] lg:decoration-[5px] decoration-green-950 underline-offset-8 md:underline-offset-10 lg:underline-offset-12 text-center md:text-left">
+          EXPERIENCE <br class="md:hidden"> & <br class="md:hidden"> EDUCATION</h1>
+        <div class="portfolio-container grid lg:grid-cols-2 gap-8 lg:gap-1 lg:px-1 lg:items-start">
+          <div data-aos="fade-right" class="education-container">
+
+            <!-- Education -->
+
+            <h2 class="mt-10 mb-3 text-3xl text-green-900/85 font-bold underline decoration-[4px] underline-offset-4">
+              EDUCATION</h2>
+            <div class="education-1-item relative">
+              <div class="circle">
+              </div>
+
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
+              </div>
+
+              <div class="context ml-[70px] pb-6">
+                <h1><strong class="">National Youth Service Corps (NYSC) </strong> </h1>
+                <p>2021 - 2022</p>
+                <h3 class="font-bold text-gray-800">NYSC Certificate</h3>
+
+              </div>
+            </div>
+            <div class="education-1-item relative">
+              <div class="circle">
+              </div>
+
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
+
+              </div>
+
+              <div class="context ml-[70px] pb-6">
+                <h1><strong class="capitalize">Federal University Of Technology Owerri (Futo)</strong> </h1>
+                <p>2015 - 2020</p>
+                <h3 class="font-bold text-gray-800">Bachelor of Engineering (B.Eng)</h3>
+
+              </div>
+            </div>
+            <div class="education-1-item relative">
+              <div class="circle">
+              </div>
+
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
+
+              </div>
+
+              <div class="context ml-[70px] pb-6">
+                <h1><strong class="capitalize">Government Secondary School Phase (iv) kubwa Abuja</strong> </h1>
+                <p>2010 - 2013</p>
+                <h3 class="font-bold text-gray-800">WASSCE Certificate</h3>
+
+              </div>
+            </div>
+            <div class="education-1-item relative">
+              <div class="circle">
+              </div>
+
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-[-10] bottom-0">
+
+              </div>
+
+              <div class="context ml-[70px] pb-6">
+                <h1><strong>Government Secondary School Phase (Iv) Kubwa Abuja</strong> </h1>
+                <p>2007 - 2010</p>
+                <h3 class="font-bold text-gray-800">Basic Education Certificate</h3>
+
+              </div>
+              <div class="h-8 rounded-md w-12 bg-green-950 z-10">
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience -->
+          <div data-aos="fade-left" data-aos-easing="linear" class="experience-container">
+            <h2 class="mb-3 text-3xl text-green-900/85 font-bold underline decoration-[4px] underline-offset-4 mt-10">
+              EXPERIENCE</h2>
+            <div class="experience-1-item relative">
+              <div class="circle">
+              </div>
+
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
+
+              </div>
+
+              <div class="context ml-[70px] pb-6">
+                <h1><strong>Julius Berger Nigeria PLC</strong> </h1>
+                <p>2016 - 2017</p>
+                <h3 class="font-bold text-gray-800">Internship</h3>
+
+              </div>
+            </div>
+            <div class="experience-1-item relative">
+              <div class="circle">
+              </div>
+
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
+
+              </div>
+
+              <div class="context ml-[70px] pb-6">
+                <h1><strong>Julius Berger Nigeria PLC</strong> </h1>
+                <p>2019 - 2020</p>
+                <h3 class="font-bold text-gray-800">Internship</h3>
+
+              </div>
+            </div>
+            <div class="experience-1-item relative">
+              <div class="circle">
+              </div>
+
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-10 bottom-0">
+
+              </div>
+
+              <div class="context ml-[70px] pb-6">
+                <h1><strong>New Divine Nursery & Primary School kwankwashe Suleja</strong> </h1>
+                <p>2021 - 2022 </p>
+                <h3 class="font-bold text-gray-800">Mathematics Instructor</h3>
+
+              </div>
+            </div>
+            <div class="experience-1-item relative">
+              <div class="circle">
+              </div>
+
+              <div class="vertical-line w-2 bg-[#01ff01] absolute left-[20px] top-[0] z-[-10] bottom-0">
+
+              </div>
+
+              <div class="context ml-[70px] pb-6">
+                <h1><strong>Eagle Height Education Centre kwankwashe Suleja</strong> </h1>
+                <p>2022 - till date</p>
+                <h3 class="font-bold text-gray-800">Mathematics Instructor</h3>
+
+              </div>
+              <div class="h-8 rounded-md w-12 bg-green-950 z-10">
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="bg-green-950/95 pt-12 pb-10 md:pb-14 lg:pb-16">
+      <div class="container py-16 text-center">
+        <h2
+          class="font-bold text-white text-3xl md:text-4xl lg:text-5xl underline decoration-[3px] md:decoration-[4px] lg:decoration-[5px] decoration-[#86efac] underline-offset-8 md:underline-offset-10 lg:underline-offset-12 text-center md:text-left mb-10">
+          SERVICES</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <!-- Service 1: Web Development -->
+          <div id="service_1" data-aos="zoom-out"
+            class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg">
+            <!-- Background Icon -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <i class="fas fa-code fa-8x text-green-500 opacity-10"></i>
+            </div>
+            <!-- Foreground Content -->
+            <div class="relative z-10">
+              <div class="mb-4">
+                <i class="fas fa-code fa-3x text-green-300"></i>
+              </div>
+              <h3 class="text-2xl font-semibold text-white mb-4">Web Development</h3>
+              <p class="text-white text-lg leading-relaxed">
+                I build responsive and dynamic websites using modern technologies like HTML, CSS, JavaScript, and React.
+                Let's bring your ideas to life on the web.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 2: Mathematics Tutoring -->
+          <div id="service_1" data-aos="zoom-out"
+            class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
+            <!-- Background Icon -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <i class="fas fa-chalkboard-teacher fa-8x text-green-500 opacity-10"></i>
+            </div>
+            <!-- Foreground Content -->
+            <div class="relative z-10">
+              <div class="mb-4">
+                <i class="fas fa-chalkboard-teacher fa-3x text-green-300"></i>
+              </div>
+              <h3 class="text-2xl font-semibold text-white mb-4">Mathematics Tutoring</h3>
+              <p class="text-white text-lg leading-relaxed">
+                I offer personalized math tutoring for students, helping them master concepts and improve their
+                problem-solving skills.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 3: Project Consultation -->
+          <div id="service_1" data-aos="zoom-out"
+            class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
+            <!-- Background Icon -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <i class="fas fa-project-diagram fa-8x text-green-500 opacity-10"></i>
+            </div>
+            <!-- Foreground Content -->
+            <div class="relative z-10">
+              <div class="mb-4">
+                <i class="fas fa-project-diagram fa-3x text-green-300"></i>
+              </div>
+              <h3 class="text-2xl font-semibold text-white mb-4">Project Consultation</h3>
+              <p class="text-white text-lg leading-relaxed">
+                Need guidance on a project? I provide consultation services to help you plan, execute, and deliver
+                successful projects.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 4: Web Development Consultation -->
+          <div id="service_1" data-aos="zoom-out"
+            class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
+            <!-- Background Icon -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <i class="fas fa-laptop-code fa-8x text-green-500 opacity-10"></i>
+            </div>
+            <!-- Foreground Content -->
+            <div class="relative z-10">
+              <div class="mb-4">
+                <i class="fas fa-laptop-code fa-3x text-green-300"></i>
+              </div>
+              <h3 class="text-2xl font-semibold text-white mb-4">Web Development Consultation</h3>
+              <p class="text-white text-lg leading-relaxed">
+                Need guidance on your web development journey? I offer personalized consultation services to turn your
+                ideas into reality.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 5: Mathematics Tutoring -->
+          <div id="service_1" data-aos="zoom-out"
+            class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
+            <!-- Background Icon -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <i class="fas fa-calculator fa-8x text-green-500 opacity-10"></i>
+            </div>
+            <!-- Foreground Content -->
+            <div class="relative z-10">
+              <div class="mb-4">
+                <i class="fas fa-calculator fa-3x text-green-300"></i>
+              </div>
+              <h3 class="text-2xl font-semibold text-white mb-4">Mathematics Tutoring</h3>
+              <p class="text-white text-lg leading-relaxed">
+                As a passionate mathematician, I provide tailored tutoring services to help students excel in their
+                studies.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 6: UI/UX Design Enhancement -->
+          <div id="service_1" data-aos="zoom-out"
+            class="relative bg-white bg-opacity-20 backdrop-blur-lg p-6 rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
+            <!-- Background Icon -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <i class="fas fa-palette fa-8x text-green-500 opacity-10"></i>
+            </div>
+            <!-- Foreground Content -->
+            <div class="relative z-10">
+              <div class="mb-4">
+                <i class="fas fa-palette fa-3x text-green-300"></i>
+              </div>
+              <h3 class="text-2xl font-semibold text-white mb-4">UI/UX Design Enhancement</h3>
+              <p class="text-white text-lg leading-relaxed">
+                Elevate your digital presence with sleek, user-friendly designs that align with your brand's identity.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class=" pt-28 md:pt-32 lg:pt-36 md:pb-16 lg:pb-20">
+
+      <h2
+        class=" container font-bold text-green-950/80 text-3xl md:text-4xl lg:text-5xl underline decoration-[3px] md:decoration-[4px] lg:decoration-[5px] decoration-black underline-offset-8 md:underline-offset-10 lg:underline-offset-12 text-center md:text-left">
+        TESTIMONIAL</h2>
+      <span id="typewriter"
+        class="text-xl md:text-2xl no-underline block container mb-8 mt-3 text-center md:text-left"></span>
+      <div class="container">
+        <div class="testimonial-carousel">
+          <div class="text-center p-5 bg-green-900 text-white rounded-lg m-2 shadow-md shadow-gray-500">
+            <div
+              class="h-[100px] w-[100px] rounded-full border-2 border-black shadow-lg shadow-green-950 mx-auto mb-4 bg-slate-400">
+              <img src="assets/icons8-react-100.png" alt="">
+            </div>
+            <p class="italic text-lg">"Great service, highly recommend!"</p>
+            <h5 class="font-bold mt-3">- Mohammed Hassan</h5>
+          </div>
+          <div class="text-center p-5 bg-green-900 text-white rounded-lg m-2 shadow-md shadow-gray-500">
+            <div
+              class="h-[100px] w-[100px] rounded-full border-2 border-black shadow-lg shadow-green-950 mx-auto mb-4 bg-slate-400 ">
+              <img src="assets/icons8-react-100.png" alt="">
+            </div>
+            <p class="italic text-lg">"Amazing experience, will come back for sure!"</p>
+            <h5 class="font-bold mt-3">- Fasasi Khairat</h5>
+          </div>
+          <div class="text-center p-5 bg-green-900 text-white rounded-lg m-2 shadow-md shadow-gray-500">
+            <div
+              class="h-[100px] w-[100px] rounded-full border-2 border-black shadow-lg shadow-green-950 mx-auto mb-4 bg-slate-400">
+              <img src="assets/icons8-react-100.png" alt="">
+            </div>
+            <p class="italic text-lg">"Wonderful support and fast response!"</p>
+            <h5 class="font-bold mt-3">- Akuma Marvellous</h5>
+          </div>
+          <div class="text-center p-5 bg-green-900 text-white rounded-lg m-2 shadow-md shadow-gray-500">
+            <div
+              class="h-[100px] w-[100px] rounded-full border-2 border-black shadow-lg shadow-green-950 mx-auto mb-4 bg-slate-400">
+              <img src="assets/icons8-react-100.png" alt="">
+            </div>
+            <p class="italic text-lg">"Excellent work, very satisfied!"</p>
+            <h5 class="font-bold mt-3">- Umar Faruq</h5>
+          </div>
+          <div class="text-center p-5 bg-green-900 text-white rounded-lg m-2 shadow-md shadow-gray-500">
+            <div
+              class="h-[100px] w-[100px] rounded-full border-2 border-black shadow-lg shadow-green-950 mx-auto mb-4 bg-slate-400">
+              <img src="assets/icons8-react-100.png" alt="">
+            </div>
+            <p class="italic text-lg">"Fast delivery and very professional!"</p>
+            <h5 class="font-bold mt-3">- Nwigwe Chidimma</h5>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="Contact" class="py-12 pt-24">
+      <!-- Contact Section Header -->
+      <h2
+        class=" container font-bold text-green-950/80 text-3xl md:text-4xl lg:text-5xl underline decoration-[3px] md:decoration-[4px] lg:decoration-[5px] decoration-black underline-offset-8 md:underline-offset-10 lg:underline-offset-12 text-center md:text-left mb-10">
+        CONTACT ME</h2>
+      <p class=" container text-gray-600 mb-8 text-center md:text-left text-xl md:text-2xl tracking-tight leading-6">
+        Whether you have questions about my services, want to discuss a project, or just want to say hello, feel free to
+        reach out. I’m here to help!</p>
+      <div class="container mx-auto flex flex-col items-center">
+
+        <!-- Contact Form -->
+        <div id="contact" class="w-full max-w-2xl">
+          <form action="https://formspree.io/f/meojpjqo" method="POST" class="bg-green-950/80 p-6 rounded-lg shadow-lg"
+            id="contactForm">
+            <div class="mb-4">
+              <label for="name" class="block text-lg font-semibold mb-2">Name</label>
+              <input type="text" id="name" name="name" required
+                class="w-full px-4 py-2 rounded-md border border-gray-700 bg-gray-200 text-green-950/80 focus:outline-none focus:border-green-500" />
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-lg font-semibold mb-2">Email</label>
+              <input type="email" id="email" name="email" required
+                class="w-full px-4 py-2 rounded-md border border-gray-700 bg-gray-200 text-green-950/80 focus:outline-none focus:border-green-500" />
+            </div>
+            <div class="mb-4">
+              <label for="message" class="block text-lg font-semibold mb-2">Message</label>
+              <textarea id="message" name="message" rows="4" required
+                class="w-full px-4 py-2 rounded-md border border-gray-700 bg-gray-200 text-green-950/80 focus:outline-none focus:border-green-500"></textarea>
+            </div>
+            <button type="submit"
+              class="bg-green-700 px-6 py-2 rounded-md text-white font-semibold hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500">Send
+              Message</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-green-950/95 text-white py-8">
+    <div class="container mx-auto flex flex-col items-center md:flex-row md:justify-between">
+
+      <div class="text-[1.5rem] font-bold mb-6 md:mb-0">
+        TOCHERO.
+      </div>
+
+
+      <ul class="flex flex-col items-center space-y-4 md:flex-row md:space-y-0 md:space-x-8">
+        <li>
+          <a href="#home" class="footer-link hover:text-gray-400 transition-colors">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#portfolio" class="footer-link hover:text-gray-400 transition-colors">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#services" class="footer-link hover:text-gray-400 transition-colors">
+            Services
+          </a>
+        </li>
+        <li>
+          <a href="#Contact" class="footer-link hover:text-gray-400 transition-colors">
+            Contacts
+          </a>
+        </li>
+      </ul>
+
+
+      <div class="flex space-x-4 mt-6 md:mt-0">
+        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+          <i class="ri-facebook-fill text-2xl"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+          <i class="ri-twitter-fill text-2xl"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+          <i class="ri-linkedin-fill text-2xl"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+          <i class="ri-instagram-fill text-2xl"></i>
+        </a>
+      </div>
+    </div>
+    <div class="text-center mt-6 border-t border-gray-700 pt-4">
+      <p class="text-sm">
+        © 2024 TOCHERO. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./loaders.css/js/ripples.min.js"></script>
+  <!-- Slick Carousel JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
