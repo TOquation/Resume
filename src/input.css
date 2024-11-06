@@ -49,6 +49,13 @@ body.loaded {
     @apply text-[2.3rem] sm:text-[3.3rem] md:text-[4.3rem] font-bold text-white tracking-wide sm:tracking-wider uppercase z-[20]
 }
 
+#home{
+    background-image: url('./assets/nature.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .load-text span {
     -webkit-animation: loading 1s infinite alternate;
     animation: loading 1s infinite alternate;

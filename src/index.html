@@ -101,10 +101,10 @@
   <main>
 
     <!-- Home -->
-    <section id="home" class="pt-24 md:pt-32 lg:mt-36 mt-8 pb-20 md:pb-28 lg:pb-32 max-w-full">
+    <section id="home" class="ripple pt-24 md:pt-32  mt-8 pb-20 md:pb-28 lg:pb-32 max-w-full">
       <div class="lg:flex lg:flex-row-reverse container">
         <!-- image area -->
-        <div class="lg:w-1/2 relative">
+        <div class="lg:w-1/2 relative opacity-25">
           <img data-aos="fade-down" class="block mx-auto h-[250px] w-[250px] md:h-[350px] md:w-[350px] object-cover"
             src="./assets/chero.png" alt="profile-pix">
           <!-- blur div -->
@@ -113,24 +113,24 @@
         <!-- content -->
         <div class="mt-12 lg:mt-8 text-center space-y-4 lg:w-1/2 lg:text-left z-[1]" data-aos="fade-right"
           data-aos-duration="1500">
-          <h1 class="text-2xl md:text-3xl lg:text-4xl">
+          <h1 class="text-2xl text-[#8c918c] md:text-3xl lg:text-4xl">
             MY NAME IS
-            <span class="text-5xl md:text-6xl lg:text-7xl font-bold text-[#193919]">TOCHER0</span>
+            <span class="text-5xl md:text-6xl lg:text-7xl font-bold text-[#afb0af]">TOCHER0</span>
           </h1>
-          <p class="text-xl">
+          <p class="text-xl text-[#afb0af]">
             I'm a mathematician with a passion for teaching and learning. I love exploring new concepts and helping
             others discover the beauty of mathematics. Join me in this journey of curiosity and growth.
           </p>
 
           <div class="py-4 space-y-3 space-x-4">
             <a class="inline-block mb-3 md:inline md:mb-0" href="./assets/tochiCV.pdf" download>
-              <button class="btn ml-3">
+              <button class="btn ml-3 text-[#6a6b6a]">
                 Download CV
               </button>
             </a>
 
             <a href="#Contact">
-              <button class="btn outer">
+              <button class="btn outer text-[#6a6b6a]">
                 Contact me
               </button>
             </a>
@@ -146,7 +146,7 @@
 
 
     <!-- Skills -->
-    <section id="my_Skills" class="pb-20 md:pb-32 lg:pb-36">
+    <section id="my_Skills" class="pt-8 pb-20 md:pb-32 lg:pb-6">
 
       <div class="container pb-6 md:pb-8 lg:pb-10">
 
@@ -277,7 +277,6 @@
           </div>
         </div>
     </section>
-
 
     <!-- Portfolio -->
     <section id="portfolio" class="pt-24 pb-20 md:pb-32 lg:pb-36">
@@ -668,7 +667,6 @@
 
   </main>
 
-
   <!-- Footer -->
   <footer class="bg-green-950/95 text-white py-8">
     <div class="container mx-auto flex flex-col items-center md:flex-row md:justify-between">
@@ -731,8 +729,10 @@
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
   <!-- Slick Carousel JS -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./ripples/ripples.min.js"></script>
   <script src="script.js"></script>
 </body>
 
