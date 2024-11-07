@@ -56,6 +56,14 @@ body.loaded {
     background-position: center center;
 }
 
+#home .pix{
+    opacity: .3;
+}
+
+#home .pix:hover{
+    opacity: .6;
+}
+
 .load-text span {
     -webkit-animation: loading 1s infinite alternate;
     animation: loading 1s infinite alternate;
@@ -172,7 +180,7 @@ body.loaded {
 
 
 body {
-    @apply font-jamjuree md:font-pacifico antialiased;
+    @apply font-pacifico antialiased;
     overflow-x: hidden;
 
 }
