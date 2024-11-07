@@ -56,15 +56,6 @@
     })
   })
   
-  window.addEventListener('scroll', () => {
-    if (this.scrollY >= 45) {
-      header.classList.add('border-b-2', 'border-white')
-    } else {
-      header.classList.remove('border-b-2', 'border-white')
-    }
-  
-  
-  })
   
     /*--------------------------------------------------------------
       12. Ripple
