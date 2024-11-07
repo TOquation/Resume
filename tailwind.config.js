@@ -3,9 +3,8 @@ module.exports = {
   theme: {
     extend: {
 
-      fontFamily:{
-        "pacifico" : ["Pacifico", "cursive"],
-        "jamjuree" : ["Bai Jamjuree", "Sans-Serif"],
+      fontFamily: {
+        pacifico: ['Pacifico', 'cursive'],
       },
 
       keyframes: {

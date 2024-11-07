@@ -180,10 +180,12 @@ body.loaded {
 
 
 body {
-    @apply font-pacifico antialiased;
+    @apply font-[cursive] antialiased;
     overflow-x: hidden;
-
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+  
 
 .sidebar {
     background: linear-gradient(rgba(158, 207, 158, .5), rgba(153, 193, 153, .8)), url('./assets/treeWhite.jpg');

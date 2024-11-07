@@ -64,7 +64,7 @@
       if ($('.ripple').length) {
         $('.ripple').ripples({
           resolution: 512,
-          dropRadius: 25,
+          dropRadius: 20,
           perturbance: 0.04,
         });
       }
