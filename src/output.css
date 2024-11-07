@@ -1263,10 +1263,6 @@ video {
   opacity: 0.1;
 }
 
-.opacity-25{
-  opacity: 0.25;
-}
-
 .shadow-lg{
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
@@ -1384,6 +1380,14 @@ body.loaded {
   background-position: center center;
 }
 
+#home .pix{
+  opacity: .3;
+}
+
+#home .pix:hover{
+  opacity: .6;
+}
+
 .load-text span {
   animation: loading 1s infinite alternate;
 }
@@ -1476,18 +1480,9 @@ body.loaded {
 }
 
 body{
-  font-family: Bai Jamjuree, Sans-Serif;
+  font-family: Pacifico, cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@media (min-width: 768px){
-  body{
-    font-family: Pacifico, cursive;
-  }
-}
-
-body {
   overflow-x: hidden;
 }
 
