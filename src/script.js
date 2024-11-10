@@ -1,3 +1,4 @@
+ 
   window.addEventListener('load', function () {
     document.getElementById('preloader').style.display = 'none';
   });
@@ -55,24 +56,78 @@
       sidebar.classList.toggle('close')
     })
   })  
+
+
+  // Get the container where the Lottie animation will be displayed
+const cursorElement = document.getElementById('lottie-cursor');
+
+// Load the Lottie animation (fire.json)
+const animation = bodymovin.loadAnimation({
+    container: cursorElement, // The div where the Lottie animation will be rendered
+    renderer: 'svg', // Render as SVG
+    loop: true, // Loop the animation
+    autoplay: true, // Autoplay the animation
+    path: '../fire.json' // Path to your Lottie JSON file (fire.json)
+});
+
+// Update the position of the animation to follow the cursor
+document.addEventListener('mousemove', (e) => {
+    const x = e.clientX;
+    const y = e.clientY;
+
+    // Position the Lottie icon at the cursor's position
+    cursorElement.style.left = `${x - 25}px`; // Center the Lottie animation over the cursor (subtract half the width)
+    cursorElement.style.top = `${y - 25}px`;  // Center the Lottie animation over the cursor (subtract half the height)
+});
+
+
+
+    
+  const cursor = document.querySelector('.cursor');
+
+  // Update the position of the emoji to follow the cursor
+  document.addEventListener('mousemove', (e) => {
+      const x = e.clientX;
+      const y = e.clientY;
+  
+      cursor.style.left = `${x}px`;
+      cursor.style.top = `${y}px`;
+  });
+  
+  
+
     /*--------------------------------------------------------------
       12. Ripple
     --------------------------------------------------------------*/
   
     
-    function rippleInit() {
-      if ($('.ripple').length) {
-        $('.ripple').ripples({
-          resolution: 512,
-          dropRadius: 20,
-          perturbance: 0.04,
-        });
-      }
+   // Initialize ripple effect for screens larger than 768px
+function rippleInit() {
+  if ($(window).width() > 1024) {
+    if ($('.ripple').length && !$('.ripple').hasClass('ripples-initialized')) {
+      $('.ripple').ripples({
+        resolution: 512,
+        dropRadius: 20,
+        perturbance: 0.02,
+      }).addClass('ripples-initialized'); // Add class to indicate initialization
     }
-    
-    $(document).ready(function() {
-      rippleInit();
-    });
+  } else {
+    // Remove ripple effect if initialized and screen is smaller than 768px
+    if ($('.ripple').hasClass('ripples-initialized')) {
+      $('.ripple').ripples('destroy').removeClass('ripples-initialized'); // Remove initialization class
+    }
+  }
+}
+
+$(document).ready(function () {
+  rippleInit();
+
+  // Reinitialize or remove ripple effect on window resize
+  $(window).resize(function () {
+    rippleInit();
+  });
+});
+
     
   
   $(document).ready(function () {
