@@ -67,7 +67,7 @@ const animation = bodymovin.loadAnimation({
     renderer: 'svg', // Render as SVG
     loop: true, // Loop the animation
     autoplay: true, // Autoplay the animation
-    path: './fire.json' // Path to your Lottie JSON file (fire.json)
+    path: './firey.json' // Path to your Lottie JSON file (fire.json)
 });
 
 // Update the position of the animation to follow the cursor
