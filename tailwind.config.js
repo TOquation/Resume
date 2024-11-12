@@ -4,7 +4,7 @@ module.exports = {
     extend: {
 
       fontFamily: {
-        Koba: ['koba', 'cursive'],
+        Koba: ['koba', 'sans-serif'],
       },
 
       keyframes: {
