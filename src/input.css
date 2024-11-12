@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import 'loaders.css/loaders.min.css';
+@import url('./font.css');
 
 html {
     scroll-behavior: smooth;
@@ -182,7 +180,7 @@ body.loaded {
 
 
 body {
-    @apply font-[cursive] antialiased;
+    @apply font-Koba antialiased;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
