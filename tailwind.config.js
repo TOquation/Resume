@@ -4,7 +4,7 @@ module.exports = {
     extend: {
 
       fontFamily: {
-        pacifico: ['Pacifico', 'cursive'],
+        Koba: ['koba', 'cursive'],
       },
 
       keyframes: {
