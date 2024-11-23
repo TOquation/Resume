@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import 'loaders.css/loaders.min.css';
-@import url('./font.css');
+
 
 html {
     scroll-behavior: smooth;
@@ -180,7 +180,7 @@ body.loaded {
 
 
 body {
-    @apply font-Koba antialiased;
+    font-family: Nunito;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
