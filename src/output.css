@@ -1490,7 +1490,7 @@ body.loaded {
 }
 
 body {
-  font-family: koba, cursive;
+  font-family: Nunito;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
